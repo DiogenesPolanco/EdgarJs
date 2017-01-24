@@ -5,18 +5,33 @@ module Edgarjs {
         session = 2,
     }
 
+    const providers = {
+        [location.local]() {
+            return new StorageLocal();
+        },
+        [location.session]() {
+            return new StorageSession();
+        }
+    }
+    class StorageProvider {
+
+        static get(location: location) {
+            return providers[location]()
+        }
+    }
+
     export class Storage {
-        storageProvider: IStorage;
-        constructor(_location: location, provider: IStorage) {
-            this.storageProvider = provider;
+        provider: IStorage;
+        constructor(_location: location) {
+            this.provider = StorageProvider.get(_location);
         }
 
         Save(key, value): boolean {
-            return this.storageProvider.setItem(key, value)
+            return this.provider.setItem(key, value)
         }
 
         Get(key: string): Object {
-            return this.storageProvider.getItem(key);
+            return this.provider.getItem(key);
         }
 
         RemoveAll() {
