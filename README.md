@@ -1,13 +1,7 @@
 # EdgarJs
 
-An awesome MVC typescript project, that displays Hello World.
-
-## Links
-
-- Source: 
-- Bugs:
-- Documentation: [http://thirdlink.whatnot/whatever](http://loldamn.com/wp-content/uploads/2014/02/funny-little-fat-puppies-food.jpg)
-
+ With this library you can manage your data in the browser without problems.
+ 
 ## Project Setup
 
 This project uses [gulp](http://gulpjs.com/) as its build system. 
@@ -16,7 +10,7 @@ This project uses [gulp](http://gulpjs.com/) as its build system.
 
 1. Install dependencies: `$ npm install`
 2. Build and run: `$ gulp buildrun`
-
+3. Run:`$ npm start 
 
 ## Testing
 
@@ -27,16 +21,6 @@ This project usings [mocha](http://visionmedia.github.io/mocha/) for unit testin
 To compile and test run:
 
 -  `$ gulp && mocha`
-
-## Troubleshooting & Useful Tools
-
-_Examples of common tasks_
-
-> e.g.
-> 
-> - How to make curl requests while authenticated via oauth.
-> - How to monitor background jobs.
-> - How to run the app through a proxy.
 
 ## License
 
