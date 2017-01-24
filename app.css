@@ -1,19 +1,25 @@
 body {
-  background: deeppink; }
+    background: deeppink;
+}
 
 #app {
-  font-family: monaco;
-  background: deeppink;
-  width: 100%;
-  height: 100%;
-  text-align: center; }
-  #app a {
+    font-family: monaco;
+    background: deeppink;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+#app a {
     background: gray;
     width: 150px;
     height: 60px;
-    color: white; }
+    color: white;
+}
 
 #app h1 {
-  color: white; }
+    color: white;
+}
+
 
 /*# sourceMappingURL=app.css.map */

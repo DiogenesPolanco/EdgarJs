@@ -1,0 +1,26 @@
+{
+  "name": "edgarjs",
+  "description": "",
+  "main": "app/build/edgarjs.js",
+  "authors": [
+    "danywalls",
+    "diogenespolanco"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "localStorage",
+    "sessionStorage"
+  ],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.1.1",
+    "handlebars": "^4.0.5"
+  }
+}

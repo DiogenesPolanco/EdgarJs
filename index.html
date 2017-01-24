@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -8,25 +7,26 @@
 </head>
 
 <body>
-<div id="app">
-    <h1>Ejemplo con Handlebars</h1>
-    <h2>Guarda el JSON en localstorage , luego lo bindea en el template, y  lo elimina.</h2>
-    <a href="#" class="save">Guardar</a>
-    <a href="#" class="load">Cargar Template</a>
-    <a href="#" class="delete">Eliminar LocaStorage</a>
-</div>
-   <script id="entry-template" type="text/x-handlebars-template">
-  <div class="entry">
-    <h1>{{title}}</h1>
-    <div class="body">
-      {{body}}
+    <div id="app">
+        <h1>Ejemplo con Handlebars</h1>
+        <h2>Guarda el JSON en localstorage , luego lo bindea en el template, y lo elimina.</h2>
+        <a href="#" class="save">Guardar</a>
+        <a href="#" class="load">Cargar Template</a>
+        <a href="#" class="delete">Eliminar LocaStorage</a>
     </div>
-  </div>
-</script>
-<script src="jquery.js"></script>
-<script src="handlebars.js"></script>
-<script src="app.js"></script>
-    <link rel="stylesheet" href="app.css">
+    <script id="entry-template" type="text/x-handlebars-template">
+        <div class="entry">
+            <h1>{{title}}</h1>
+            <div class="body">
+                {{body}}
+            </div>
+        </div>
+    </script>
+    <script src="/bower_components/jquery/dist/jquery.js"></script>
+    <script src="/bower_components/handlebars/handlebars.js"></script>
+    <script src="/app/build/edgarjs.js"></script>
+    <script src="/app/app.js"></script>
+    <link rel="stylesheet" href="/app/app.css">
 </body>
 
 </html>
