@@ -10,7 +10,7 @@ This project uses [gulp](http://gulpjs.com/) as its build system.
 
 1. Install dependencies: `$ npm install`
 2. Build and run: `$ gulp buildrun`
-3. Run:`$ npm start 
+3. Run:`$ npm start`
 
 ## Testing
 
