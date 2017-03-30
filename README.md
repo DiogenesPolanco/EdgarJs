@@ -5,6 +5,14 @@
 
  With this library you can manage your data in the browser without problems.
  
+## Instalation
+Via Bower, npm  and yarn:
+
+    $ bower install edgarjs -save
+    $ npm install edgarjs -save
+    $ yarn add edgarjs
+
+
 ## Project Setup
 
 This project uses [gulp](http://gulpjs.com/) as its build system. 
@@ -24,7 +32,4 @@ This project usings [mocha](http://visionmedia.github.io/mocha/) for unit testin
 To compile and test run:
 
 -  `$ gulp && mocha`
-
-## License
-
-MIT
+ 
