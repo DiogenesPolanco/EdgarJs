@@ -1,5 +1,6 @@
 # EdgarJs
 ====================================
+
 [![Build Status](https://travis-ci.org/DiogenesPolanco/EdgarJs.svg?branch=master)](https://travis-ci.org/DiogenesPolanco/EdgarJs)
 
  With this library you can manage your data in the browser without problems.
