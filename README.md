@@ -1,9 +1,10 @@
 # EdgarJs
-====================================
+
+Easy way to manage data in the browser like a kid.
 
 [![Build Status](https://travis-ci.org/DiogenesPolanco/EdgarJs.svg?branch=master)](https://travis-ci.org/DiogenesPolanco/EdgarJs)
 
- With this library you can manage your data in the browser without problems.
+ 
  
 ## Instalation
 Via Bower, npm  and yarn:
